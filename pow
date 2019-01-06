@@ -13,7 +13,7 @@ do
     case $arg in
         h) HZ=true
             ;;
-        w) weather=$(curl -s wttr.in/utrecht | awk 'NR>=2 && NR<=7')
+        w) weather=$(curl -s wttr.in | awk 'NR>=2 && NR<=7')
             ;;
         *) weather=""
             ;;

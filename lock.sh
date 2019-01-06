@@ -1,4 +1,6 @@
 #!/bin/sh
+#
+# FlyingBBQ - i3lock settings
 
 i3lock                      \
 \
