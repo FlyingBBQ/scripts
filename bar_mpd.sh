@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+# FlyingBBQ - show artist and title
 
 # check if mpd is playing
 artist=$(mpc -h ~/.config/mpd/socket current -f %artist%)

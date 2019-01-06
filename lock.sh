@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# FlyingBBQ - i3lock settings
+# FlyingBBQ - i3lock
 
 i3lock                      \
 \
@@ -18,7 +18,6 @@ i3lock                      \
 --ringvercolor=83a598ff     \
 --ringwrongcolor=fb4934ff   \
 --line-uses-inside          \
-\ #--linecolor=665c54ff        \
 \
 --screen 0                  \
 --blur 5                    \
