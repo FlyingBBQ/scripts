@@ -9,18 +9,18 @@ i3lock                      \
 --verifcolor=ebdbb2ff        \
 --wrongcolor=ebdbb2ff        \
 \
---insidecolor=282828ff      \
---ringcolor=fe8019ff        \
+--insidecolor=282828a0      \
+--ringcolor=d79921ff        \
 --keyhlcolor=458588ff       \
 --bshlcolor=cc241dff        \
---insidevercolor=458588ff   \
---insidewrongcolor=cc241dff \
+--insidevercolor=4585885a   \
+--insidewrongcolor=cc241d5a \
 --ringvercolor=83a598ff     \
 --ringwrongcolor=fb4934ff   \
 --line-uses-inside          \
 \
---screen 0                  \
---blur 5                    \
+--screen 1                  \
+--blur 6                    \
 --clock                     \
 --indicator                 \
 \
@@ -28,4 +28,5 @@ i3lock                      \
 --timestr="%H:%M"           \
 \
 --wrongtext="Nope!"         \
---show-failed-attempts
+--show-failed-attempts      \
+--pass-media-keys
