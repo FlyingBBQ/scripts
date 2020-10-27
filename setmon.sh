@@ -11,10 +11,10 @@ echo "setting monitors.."
 
 case "$1" in
     "one")
-        if [ "$(xrandr -q | grep $m_main | awk '{print $2}')" -eq "connected" ]; then
+        if [[ "$(xrandr -q | grep $m_main | awk '{print $2}')" -eq "connected" ]]; then
             xrandr --output $m_main --off
         fi
-        if [ "$(xrandr -q | grep $m_ext | awk '{print $2}')" -eq "connected" ]; then
+        if [[ "$(xrandr -q | grep $m_ext | awk '{print $2}')" -eq "connected" ]]; then
             xrandr --output $m_ext --off
         fi
         xrandr --output $m_lap --primary --mode 1920x1080
@@ -23,6 +23,12 @@ case "$1" in
         xrandr --output $m_main --primary --mode 1920x1080
         xrandr --output $m_ext --mode 1920x1080 --right-of $m_main
         xrandr --output $m_ext --rotate right
+        xrandr --output $m_lap --off
+        ;;
+    "twoi")
+        xrandr --output $m_ext --primary --mode 1920x1080
+        xrandr --output $m_main --mode 1920x1080 --left-of $m_ext
+        xrandr --output $m_main --rotate left
         xrandr --output $m_lap --off
         ;;
     "three")
