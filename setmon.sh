@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # FlyingBBQ - set monitors with xrandr
 

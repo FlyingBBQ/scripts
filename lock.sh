@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 #
-# FlyingBBQ - i3lock
+# FlyingBBQ - i3lock configuration
 
 i3lock                      \
 \
 --timecolor=ebdbb2ff        \
 --datecolor=ebdbb2ff        \
---verifcolor=ebdbb2ff        \
---wrongcolor=ebdbb2ff        \
+--verifcolor=ebdbb2ff       \
+--wrongcolor=ebdbb2ff       \
 \
 --insidecolor=282828a0      \
 --ringcolor=d79921ff        \

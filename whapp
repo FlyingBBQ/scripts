@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
+#
+# FlyingBBQ - open whatsapp in browser
 
 firefox --new-window https://web.whatsapp.com/

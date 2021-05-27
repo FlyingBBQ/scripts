@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# FlyingBBQ - formatting rules for C using astyle
 
 astyle \
     --style=1tbs \
